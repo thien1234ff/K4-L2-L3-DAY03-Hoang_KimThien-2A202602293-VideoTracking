@@ -2,7 +2,7 @@
 
 Chép file này thành `reports/REPORT.md` rồi điền. Giữ nguyên các tiêu đề.
 
-Họ tên / nhóm: `Hoàng Kim Thiện`
+Họ tên / nhóm: `Hoàng Kim Thiên`
 Ngày: `15/09/2026`
 
 ---
