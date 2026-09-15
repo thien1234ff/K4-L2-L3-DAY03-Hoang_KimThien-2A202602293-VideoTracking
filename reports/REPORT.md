@@ -46,8 +46,8 @@ Hai người từng có sự phân vân ở thời điểm xe ở rất xa bắt
 | Thời điểm khóa | `2026-09-15T05:48:05Z` |
 | Số row / frame / track trước khi mở reference | `573 rows / 190 frames / 8 tracks` |
 
-| | HOTA | DetA | AssA | LocA | IDF1 | MOTA | MOTP | FP | FN | IDSW |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Giai đoạn | HOTA | DetA | AssA | LocA | IDF1 | MOTA | MOTP | FP | FN | IDSW |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Bản pre-gold | 0.812 | 0.798 | 0.829 | 0.867 | 0.970 | 0.941 | 0.852 | 17 | 17 | 0 |
 | Sau rework | 0.812 | 0.798 | 0.829 | 0.867 | 0.970 | 0.941 | 0.852 | 17 | 17 | 0 |
 
@@ -75,7 +75,7 @@ Cấu hình từ `outputs/model_run_config.json`:
 | device | `0` (CUDA GPU) |
 
 | So sánh | HOTA | DetA | AssA | LocA | IDF1 | MOTA | MOTP | FP | FN | IDSW |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | bạn vs gold | 0.812 | 0.798 | 0.829 | 0.867 | 0.970 | 0.941 | 0.852 | 17 | 17 | 0 |
 | ByteTrack control vs gold | 0.709 | 0.649 | 0.776 | 0.846 | 0.875 | 0.749 | 0.823 | 88 | 54 | 2 |
 | BoT-SORT + ReID vs gold | 0.763 | 0.711 | 0.820 | 0.872 | 0.900 | 0.792 | 0.860 | 91 | 26 | 2 |
